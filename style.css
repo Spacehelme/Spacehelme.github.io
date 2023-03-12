@@ -1,0 +1,113 @@
+body{
+  background-color: #535353;
+}
+/* |----------NaV BaR--------------| */
+#menu {
+  position: fixed;
+  padding-right: 87%;
+}
+ul {
+  list-style-type: none;
+  margin: 5px 5px 5px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 10px;
+  padding-top: 7px;
+}
+li {
+  float: left;
+  margin-top: -10px;
+}
+
+li a {
+  display: block;
+  color: purple;
+  text-align: center;
+  text-decoration: none;
+}
+#home_button a{
+    font-family: Rapier Zero;
+    text-decoration: none;
+    font-size: 70px;
+    color:rgb(14, 212, 74);
+    padding-top: 15px;
+    position: fixed;
+    left: 37%;
+}
+#home_button a:hover {
+  color: black;
+  background-color: rgb(14, 212, 74);
+  border-radius:  clamp(0.4rem, 0.75vw, 1rem);
+  transition: 1s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 7;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-left: 5px;
+    margin-top: 150px;
+    border-radius: 10px;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(14, 212, 74);
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: rgb(14, 212, 74);
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #SideNavImg {
+    height: 50px; 
+    width: 50px;
+    margin-top: 30px; 
+    margin-left: 0px; 
+    margin-right: 40px;
+  }
+  #mySidenav {
+    font-family: 'Berlin Sans FB', Courier New, Courier, monospace;
+  }
+  #mySidenav a:hover {
+    /* margin-top: 10px; */
+    transition: 0.5s;
+    font-size: 20px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  #profile {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  #ProfileImg {
+    border: 2px solid rgb(14, 212, 74);
+    width: 70px; 
+    height: 70px; 
+    border-radius: 100px; 
+    margin-top: 20px;
+  }
+/*----------------------Body--------------|*/
+p {
+  padding-left: 700px;
+  padding-top: 300px;
+}
